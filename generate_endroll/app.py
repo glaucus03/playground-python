@@ -1,7 +1,7 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-def split_text_to_images(input_file, output_dir, font_path="arial.ttf", font_size=20, max_lines=50, image_width=800):
+def split_text_to_images(input_file, output_dir, font_path="ipam.ttf", font_size=20, max_lines=50, image_width=800):
     # テキストを読み込む
     with open(input_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
